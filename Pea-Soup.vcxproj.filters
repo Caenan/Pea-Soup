@@ -13,5 +13,13 @@
     <ClInclude Include="source\kernel\defines.h">
       <Filter>Source Files\kernel</Filter>
     </ClInclude>
+    <ClInclude Include="source\kernel\assert.h">
+      <Filter>Source Files\kernel</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\kernel\assert.cpp">
+      <Filter>Source Files\kernel</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

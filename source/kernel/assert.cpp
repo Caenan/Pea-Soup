@@ -51,12 +51,12 @@ namespace peasoup
 		{
 		case IDABORT:
 			return AssertResponse::Terminate;
-			
-		case IDIGNORE:
-			return AssertResponse::Ignore;
 
 		case IDRETRY:
 			return AssertResponse::Break;
+
+		default:
+			return AssertResponse::Ignore;
 		}
 	}
 

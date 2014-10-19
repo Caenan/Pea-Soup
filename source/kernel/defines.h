@@ -2,4 +2,16 @@
 //	Pea-Soup Engine
 //	(c) Smokestack Games
 //------------------------------------------------------------------------------
+#include <stdlib.h>
 
+//------------------------------------------------------------------------------
+//	Macro Definitions
+//------------------------------------------------------------------------------
+#define PS_ABORT() \
+	abort()
+
+#define PS_BREAK() \
+	__debugbreak()
+
+#define PS_UNUSED(ARGUMENT) \
+	do { (void)sizeof(ARGUMENT); } while(0)

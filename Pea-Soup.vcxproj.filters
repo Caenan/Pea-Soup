@@ -8,6 +8,9 @@
     <Filter Include="Source Files\kernel">
       <UniqueIdentifier>{91e17ef5-ba5c-4618-bc07-5f8b07d98d87}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\application">
+      <UniqueIdentifier>{474ddce3-57b5-4189-9d4b-bd7955a78853}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="source\kernel\defines.h">
@@ -15,6 +18,9 @@
     </ClInclude>
     <ClInclude Include="source\kernel\assert.h">
       <Filter>Source Files\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="source\application\application.h">
+      <Filter>Source Files\application</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

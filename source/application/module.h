@@ -2,8 +2,8 @@
 //	Pea-Soup Engine
 //	(c) Smokestack Games
 //------------------------------------------------------------------------------
-#ifndef PEASOUP_APPLICATION_APPLICATION_H_INCLUDED
-#define PEASOUP_APPLICATION_APPLICATION_H_INCLUDED
+#ifndef PEASOUP_APPLICATION_MODULE_H_INCLUDED
+#define PEASOUP_APPLICATION_MODULE_H_INCLUDED
 //------------------------------------------------------------------------------
 #include "kernel/defines.h"
 
@@ -11,12 +11,12 @@ namespace peasoup
 {
 	//------------------------------------------------------------------------------
 	//------------------------------------------------------------------------------
-	class Application
+	class Module
 	{
 	public:
 	};
 }
 
 //------------------------------------------------------------------------------
-#endif // PEASOUP_APPLICATION_APPLICATION_H_INCLUDED
+#endif // PEASOUP_APPLICATION_MODULE_H_INCLUDED
 //------------------------------------------------------------------------------

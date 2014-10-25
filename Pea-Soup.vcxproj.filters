@@ -22,9 +22,39 @@
     <ClInclude Include="source\application\application.h">
       <Filter>Source Files\application</Filter>
     </ClInclude>
+    <ClInclude Include="source\application\thread_pool.h">
+      <Filter>Source Files\application</Filter>
+    </ClInclude>
+    <ClInclude Include="source\application\thread_worker.h">
+      <Filter>Source Files\application</Filter>
+    </ClInclude>
+    <ClInclude Include="source\application\module.h">
+      <Filter>Source Files\application</Filter>
+    </ClInclude>
+    <ClInclude Include="source\kernel\allocator.h">
+      <Filter>Source Files\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="source\kernel\memory_pool.h">
+      <Filter>Source Files\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="source\kernel\utility.h">
+      <Filter>Source Files\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="source\kernel\memory_map.h">
+      <Filter>Source Files\kernel</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source\kernel\assert.cpp">
+      <Filter>Source Files\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="source\kernel\allocator.cpp">
+      <Filter>Source Files\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="source\kernel\memory_pool.cpp">
+      <Filter>Source Files\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="source\kernel\memory_map.cpp">
       <Filter>Source Files\kernel</Filter>
     </ClCompile>
   </ItemGroup>

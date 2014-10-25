@@ -69,11 +69,21 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="source\application\application.h" />
+    <ClInclude Include="source\application\module.h" />
+    <ClInclude Include="source\application\thread_pool.h" />
+    <ClInclude Include="source\application\thread_worker.h" />
+    <ClInclude Include="source\kernel\allocator.h" />
     <ClInclude Include="source\kernel\assert.h" />
     <ClInclude Include="source\kernel\defines.h" />
+    <ClInclude Include="source\kernel\memory_map.h" />
+    <ClInclude Include="source\kernel\utility.h" />
+    <ClInclude Include="source\kernel\memory_pool.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="source\kernel\allocator.cpp" />
     <ClCompile Include="source\kernel\assert.cpp" />
+    <ClCompile Include="source\kernel\memory_map.cpp" />
+    <ClCompile Include="source\kernel\memory_pool.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

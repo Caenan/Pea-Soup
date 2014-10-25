@@ -2,21 +2,22 @@
 //	Pea-Soup Engine
 //	(c) Smokestack Games
 //------------------------------------------------------------------------------
-#ifndef PEASOUP_APPLICATION_APPLICATION_H_INCLUDED
-#define PEASOUP_APPLICATION_APPLICATION_H_INCLUDED
+#ifndef PEASOUP_KERNEL_UTILITY_H_INCLUDED
+#define PEASOUP_KERNEL_UTILITY_H_INCLUDED
 //------------------------------------------------------------------------------
-#include "kernel/defines.h"
+#include "allocator.h"
 
 namespace peasoup
 {
 	//------------------------------------------------------------------------------
 	//------------------------------------------------------------------------------
-	class Application
+	template<typename t_type>
+	bool isPowerOfTwo(t_type value)
 	{
-	public:
-	};
+		return (value != 0) && ((value & (value - 1)) == 0);
+	}
 }
 
 //------------------------------------------------------------------------------
-#endif // PEASOUP_APPLICATION_APPLICATION_H_INCLUDED
+#endif // PEASOUP_KERNEL_UTILITY_H_INCLUDED
 //------------------------------------------------------------------------------

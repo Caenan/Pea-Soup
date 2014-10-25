@@ -11,6 +11,15 @@
     <Filter Include="Source Files\application">
       <UniqueIdentifier>{474ddce3-57b5-4189-9d4b-bd7955a78853}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\io">
+      <UniqueIdentifier>{412a33d7-f0eb-4a0b-8ea6-67712ced030b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external">
+      <UniqueIdentifier>{a51373fb-d6ee-4831-b989-5692b25c7072}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external\rapidXML">
+      <UniqueIdentifier>{234d454e-87d0-4d58-a802-e287d13bb36f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="source\kernel\defines.h">
@@ -42,6 +51,18 @@
     </ClInclude>
     <ClInclude Include="source\kernel\memory_map.h">
       <Filter>Source Files\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="source\external\rapidXML\rapidxml.hpp">
+      <Filter>Source Files\external\rapidXML</Filter>
+    </ClInclude>
+    <ClInclude Include="source\external\rapidXML\rapidxml_iterators.hpp">
+      <Filter>Source Files\external\rapidXML</Filter>
+    </ClInclude>
+    <ClInclude Include="source\external\rapidXML\rapidxml_print.hpp">
+      <Filter>Source Files\external\rapidXML</Filter>
+    </ClInclude>
+    <ClInclude Include="source\external\rapidXML\rapidxml_utils.hpp">
+      <Filter>Source Files\external\rapidXML</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

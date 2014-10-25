@@ -72,6 +72,10 @@
     <ClInclude Include="source\application\module.h" />
     <ClInclude Include="source\application\thread_pool.h" />
     <ClInclude Include="source\application\thread_worker.h" />
+    <ClInclude Include="source\external\rapidXML\rapidxml.hpp" />
+    <ClInclude Include="source\external\rapidXML\rapidxml_iterators.hpp" />
+    <ClInclude Include="source\external\rapidXML\rapidxml_print.hpp" />
+    <ClInclude Include="source\external\rapidXML\rapidxml_utils.hpp" />
     <ClInclude Include="source\kernel\allocator.h" />
     <ClInclude Include="source\kernel\assert.h" />
     <ClInclude Include="source\kernel\defines.h" />
